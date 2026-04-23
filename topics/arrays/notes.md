@@ -4,8 +4,11 @@
 
 ### Time Complexities
 Access: O(1)
+
 Search: O(n)
+
 Insertion/Deletion: O(n)
+
 Append: O(1), (worst case: O(n))
 
 ### Common Patterns
