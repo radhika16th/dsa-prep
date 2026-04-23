@@ -2,22 +2,22 @@
  * Basics of Arrays
  */
 
-class Basics {
-    private int[] data;
+public class Basics {
+    private static int[] data;
 
     public Basics() {
         this.data = new int[]{2, 4, 19, 20, 43, 25, 13, 82, 20, 21, 0, 1, 45, 43};
     }
 
     // Traversal
-    public void traversal() {
+    public static void traversal() {
         for (int d : data) {
-            System.out.println(d);
+            System.out.print(d + " ");
         }
     }
 
     // Insert
-    public void insert(int i, int item) {
+    public static void insert(int i, int item) {
         // check input
         if (i > data.length) 
             throw new IllegalArgumentException("Insertion index out of bounds.");
@@ -38,7 +38,7 @@ class Basics {
     }
 
     // Remove
-    public void remove(int i) {
+    public static void remove(int i) {
         // check input
         if (i > data.length) 
             throw new IllegalArgumentException("Insertion index out of bounds.");
@@ -54,5 +54,37 @@ class Basics {
             newData[j - 1] = data[j];
         
         data = newData; // update the instance
+    }
+    
+    // Find max
+    public static void findMax() {
+        int max = data[0];
+
+        for (int d : data) {
+            if (d > max)
+                max = d;
+        }
+
+        System.out.println(max + " is the max.");
+    }
+
+    public static void main(String[] args) {
+        new Basics();
+
+        traversal();
+        System.out.println("\n" + data.length);
+
+        // insert
+        insert(10, 23);
+        traversal();
+        System.out.println("\n" + data.length);
+
+        // remove
+        remove(10);
+        traversal();
+        System.out.println("\n" + data.length);
+
+        // find max
+        findMax();
     }
 }
