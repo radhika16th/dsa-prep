@@ -3,14 +3,10 @@
  */
 
 public class Basics {
-    private static int[] data;
-
-    public Basics() {
-        this.data = new int[]{2, 4, 19, 20, 43, 25, 13, 82, 20, 21, 0, 1, 45, 43};
-    }
+    private static int[] data = new int[]{2, 4, 19, 20, 43, 25, 13, 82, 20, 21, 0, 1, 45, 43};
 
     // Traversal
-    public static void traversal() {
+    public static void traversal(int[] data) {
         for (int d : data) {
             System.out.print(d + " ");
         }
@@ -69,22 +65,20 @@ public class Basics {
     }
 
     public static void main(String[] args) {
-        new Basics();
-
-        traversal();
+        Basics.traversal(data);
         System.out.println("\n" + data.length);
 
         // insert
-        insert(10, 23);
-        traversal();
+        Basics.insert(10, 23);
+        Basics.traversal(data);
         System.out.println("\n" + data.length);
 
         // remove
-        remove(10);
-        traversal();
+        Basics.remove(10);
+        Basics.traversal(data);
         System.out.println("\n" + data.length);
 
         // find max
-        findMax();
+        Basics.findMax();
     }
 }
