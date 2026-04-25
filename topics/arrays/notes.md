@@ -24,10 +24,10 @@ Append: O(1), (worst case: O(n))
 ## Graphics used:
 
 #### Prefix Sum
-![Prefix Sum](../assets/prefix-sum.png)
+![Prefix Sum](/assets/prefix-sum.png)
 
 #### Sliding Window
-![Sliding Window](../assets/sliding-window.png)
+![Sliding Window](/assets/sliding-window.png)
 
 #### Two Pointers
-![Two Pointers](../assets/two-pointers.png)
+![Two Pointers](/assets/two-pointers.png)
