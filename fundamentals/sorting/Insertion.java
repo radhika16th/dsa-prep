@@ -8,10 +8,10 @@ import java.util.ArrayList;
  * space: O(1)
  */
 
-class Insertion {
+public class Insertion {
     // Array (shift elements)
     public void insertionSortArray(int[] arr) {
-        for (int k = 1; k < arr.length - 1; k++) {
+        for (int k = 1; k < arr.length; k++) {
             int current = arr[k];
             int j = k;
 
@@ -26,7 +26,7 @@ class Insertion {
 
     // ArrayList (shift elements)
     public void insertionSortArrayList(ArrayList<Integer> list) {
-        for (int k = 1; k < list.size() - 1; k++) {
+        for (int k = 1; k < list.size(); k++) {
             int current = list.get(k);
             int j = k;
 
