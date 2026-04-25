@@ -2,7 +2,7 @@
  * Basics of Linked Lists
  */
 
-public class Basics {
+public class LinkedBasics {
     // insert
     public static ListNode insert(ListNode head, int val) {
         // Create the node that will be appended to the list.
