@@ -21,5 +21,5 @@ jobs:
       - name: Compile Java files
         run: |
           mkdir out
-          $files = Get-ChildItem -Recurse -Filter *.java Assignment1_Team5/Code/src
+          $files = Get-ChildItem -Recurse -Filter *.java
           javac -d out $files
