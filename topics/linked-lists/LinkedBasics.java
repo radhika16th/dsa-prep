@@ -33,6 +33,16 @@ public class LinkedBasics {
         }
     }
 
+    // print
+    public static void print(ListNode head) {
+        while (head != null) {
+            System.out.print(head.value + " -> ");
+            head = head.next;
+        }
+
+        System.out.println("null");
+    }
+
     public static void main(String[] args) {
         ListNode head = null;
 
@@ -41,5 +51,6 @@ public class LinkedBasics {
         head = insert(head, 3);
 
         traverse(head);
+        print(head);
     }
 }
