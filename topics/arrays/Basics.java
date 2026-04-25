@@ -34,7 +34,7 @@ public class Basics {
     }
 
     // Remove
-    public static void remove(int i) {
+    public static void remove(int[] data, int i) {
         // check input
         if (i > data.length) 
             throw new IllegalArgumentException("Insertion index out of bounds.");
@@ -74,7 +74,7 @@ public class Basics {
         System.out.println("\n" + data.length);
 
         // remove
-        Basics.remove(10);
+        Basics.remove(data, 10);
         Basics.traversal(data);
         System.out.println("\n" + data.length);
 
