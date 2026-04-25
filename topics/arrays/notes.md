@@ -20,3 +20,14 @@ Append: O(1), (worst case: O(n))
 - Need fast index access
 - Working with contiguous data
 - Space efficient as no memory overhead required for pointers
+
+## Graphics used:
+
+#### Prefix Sum
+![Prefix Sum](../assets/prefix-sum.png)
+
+#### Sliding Window
+![Sliding Window](../assets/sliding-window.png)
+
+#### Two Pointers
+![Two Pointers](../assets/two-pointers.png)
