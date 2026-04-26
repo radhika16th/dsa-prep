@@ -13,7 +13,7 @@
  * space: O(1)
  */
 
-public class MergeLists {
+public class MergeSort {
     public static ListNode merge(ListNode node1, ListNode node2) {
         ListNode dummyNode = new ListNode(0); // dummy node
         ListNode tail = dummyNode; // tail will build the new merged list
@@ -48,7 +48,7 @@ public class MergeLists {
         ListNode head1 = null;
         head1 = LinkedBasics.insert(head1, 1);
         head1 = LinkedBasics.insert(head1, 2);
-        head1 = LinkedBasics.insert(head1, 3);
+        head1 = LinkedBasics.insert(head1, 7);
         LinkedBasics.print(head1);
 
         // second list: 4 -> 5 -> 6
