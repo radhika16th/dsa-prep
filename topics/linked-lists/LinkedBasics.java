@@ -43,6 +43,23 @@ public class LinkedBasics {
         System.out.println("null");
     }
 
+    // add at the head
+    public static ListNode addFirst(ListNode head, int value) {
+        ListNode newNode = new ListNode(value); // create new node
+
+        // if list empty
+        if (head == null)
+            return newNode;
+
+        // point new node to the current head
+        newNode.next = head;
+
+        head = newNode; // update the head
+
+        return head;
+    }
+
+
     public static void main(String[] args) {
         ListNode head = null;
 
@@ -51,6 +68,9 @@ public class LinkedBasics {
         head = insert(head, 3);
 
         traverse(head);
+        print(head);
+
+        head = addFirst(head, 0);
         print(head);
     }
 }
