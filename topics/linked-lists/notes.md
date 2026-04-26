@@ -23,3 +23,8 @@ Insertion/Deletion: O(1)
 - Dynamic Size
 - Tracking a series of states (undo/redo, back/forward)
 - Managing ttracks that can be reordered or looped (music)
+
+## Graphics used:
+
+#### Prefix Sum
+![Fast Slow Pointer](/assets/fast-slow-pointer.png)
