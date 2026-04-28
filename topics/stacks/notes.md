@@ -15,3 +15,11 @@
 - Parentheses matching  
 - Expression evaluation  
 - Backtracking  
+
+## Graphics used:
+
+#### Valid Parentheses
+![Valid Parentheses](/assets/valid-parent.png)
+
+#### Minimum Stack
+![Minimum Stack](/assets/min-stack.png)
