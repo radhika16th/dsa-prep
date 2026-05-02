@@ -18,3 +18,6 @@
 - Simulation (real-world queue behavior)
 
 ## Graphics used:
+
+#### Prefix Sum
+![Shortest Path](/assets/shortest-path.png)
