@@ -141,7 +141,7 @@ public class CustomHashMap<K, V> {
     }
 
     public static void main(String[] args) {
-        CustomHashMap<String, Integer> map = new HashMap<>();
+        CustomHashMap<String, Integer> map = new CustomHashMap<>();
 
         // Insert values
         map.put("apple", 3);
