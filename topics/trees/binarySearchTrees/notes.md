@@ -1,4 +1,4 @@
-# Binary Search Trees
+# Binary Search Trees => Left < Root < Right
 
 ## A proper binary tree where each internal position stores a key-value pait such that
 - keys stored in the left subtree of p are less than k
