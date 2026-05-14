@@ -26,7 +26,7 @@ public class SearchBST {
     /**
      * Returns the node containing the key, or null if not found
      */
-    public TreeNode treeSearch(TreeNode pos, int key) {
+    public TreeNode2 treeSearch(TreeNode2 pos, int key) {
         // Base case: node not found OR key found
         if (pos == null || pos.value == key)
             return pos;
@@ -43,8 +43,8 @@ public class SearchBST {
     /**
      * To search for the value
      */
-    public static void result(SearchBST obj, TreeNode root, int key) {
-        TreeNode result = obj.treeSearch(root, key);
+    public static void result(SearchBST obj, TreeNode2 root, int key) {
+        TreeNode2 result = obj.treeSearch(root, key);
 
         if (result != null)
             System.out.println("Found: " + result.value);
@@ -56,11 +56,11 @@ public class SearchBST {
         SearchBST obj = new SearchBST();
 
         // Build BST manually
-        TreeNode root = new TreeNode(10);
-        root.left = new TreeNode(5);
-        root.right = new TreeNode(15);
-        root.left.left = new TreeNode(2);
-        root.left.right = new TreeNode(7);
+        TreeNode2 root = new TreeNode2(10);
+        root.left = new TreeNode2(5);
+        root.right = new TreeNode2(15);
+        root.left.left = new TreeNode2(2);
+        root.left.right = new TreeNode2(7);
 
         result(obj, root, 7);
         result(obj, root, 3);

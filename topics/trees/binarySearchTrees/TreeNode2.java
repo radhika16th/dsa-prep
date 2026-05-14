@@ -1,11 +1,11 @@
 /**
  * Basic Tree Node
  */
-public class TreeNode {
+public class TreeNode2 {
     int value;
-    TreeNode left, right;
+    TreeNode2 left, right;
 
-    public TreeNode(int value) {
+    public TreeNode2(int value) {
         this.value = value;
         this.left = null;
         this.right = null;
