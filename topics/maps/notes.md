@@ -26,3 +26,11 @@ Put: O(1)
 Get: O(1)
 
 Remove: O(1)
+
+## Graphics used:
+
+#### Two Sum
+![Two Sum](/assets/two-sum.png)
+
+#### Subarray Sum Equals K
+![Subarray with sum](/assets/subarray-with-sum.png)
