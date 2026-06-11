@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Insertion Sort 
@@ -46,5 +47,14 @@ public class Insertion {
             // Insert current value into its correct sorted position.
             list.set(j, current);
         }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {64, 25, 12, 22, 11};
+
+        Insertion ss = new Insertion();
+        ss.insertionSortArray(arr);
+
+        System.out.println(Arrays.toString(arr));
     }
 }
