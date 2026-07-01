@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Linear Search
  *
@@ -21,6 +23,18 @@ public class LinearSearch {
 
         // not found
         return -1;
+    }
+
+    public static List<Integer> searchAll(int[] arr, int target) {
+        List<Integer> result = new ArrayList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
+                result.add(i);
+            }
+        }
+
+        return result;
     }
 
     public static void main(String[] args) {
