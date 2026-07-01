@@ -14,7 +14,7 @@ import java.util.*;
  * - O(V)
  */
 
-public class DFS {
+public class DepthFirstSearch {
     /**
      * Recursive DFS
      */

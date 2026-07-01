@@ -14,7 +14,7 @@ import java.util.*;
  * - O(V)
  */
 
-public class BFS {
+public class BreadthFirstSearch {
     /**
      * BFS traversal starting from a node
      */
